@@ -14,4 +14,4 @@ docker run --name factorio-server \
    -p 34197:34197/udp \
    --restart always \
    factorio-server \
-   --start-server
+   --start-server "/saves/jpaproject.zip"
