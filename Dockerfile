@@ -1,8 +1,5 @@
 # factorio
-FROM ubuntu:latest
-
-RUN apt-get update && \
-  apt-get install -y curl xz-utils
+FROM ubuntu:jpa
 
 # Download factorio
 RUN curl -fsSL https://factorio.com/get-download/latest/headless/linux64 -o factorio.tar.xz \
