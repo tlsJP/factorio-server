@@ -13,7 +13,7 @@ docker rm $NAME
 
 echo 'Starting...'
 docker run --name $NAME \
-   -v /external/factorio/saves:/saves \
+   -v /external/factorio-saves:/saves \
    -itd \
    -p $PORT:34197/udp \
    --restart always \
