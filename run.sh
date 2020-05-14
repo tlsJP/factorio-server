@@ -4,7 +4,7 @@ SAVEFILE=$1
 PORT=$2
 
 echo 'Building..'
-docker build -t factorio-server .
+docker build --no-cache -t factorio-server .
 
 echo 'Removing old container...'
 docker stop factorio-server
