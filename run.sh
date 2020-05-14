@@ -13,4 +13,5 @@ docker run --name factorio-server \
    -itd \
    -p 34197:34197/udp \
    --restart always \
-   factorio-server
+   factorio-server \
+   --start-server
