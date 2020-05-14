@@ -14,4 +14,3 @@ ADD server-settings.json ./config/server-settings.json
 RUN mkdir saves
 
 ENTRYPOINT ["./bin/x64/factorio", "--server-settings", "./config/server-settings.json"]
-# CMD ["--start-server", "/saves/jpaproject.zip", ]
